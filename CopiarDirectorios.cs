@@ -2,8 +2,8 @@ class Program
     {
         static void Main(string[] args)
         {
-            string origenDirectorio = @"F:\Documentos\Disco duro C Respaldo\source\repos\Seccion_11"; // Ruta de origen del directorio
-            string destinoDirectorio = @"F:\Escritorio\Seccion_11"; // Ruta de destino del directorio
+            string origenDirectorio = @""; // Ruta de origen del directorio
+            string destinoDirectorio = @""; // Ruta de destino del directorio
 
             // Llamamos al método "CopiarDirectorio" y le enviamos el origen y destino como argumentos
             CopiarDirectorio(origenDirectorio, destinoDirectorio);
